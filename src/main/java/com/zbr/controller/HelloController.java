@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("info")
     public String info(){
-        return "Hello SpringBoot Info:dd,再试一次";
+        return "Hello SpringBoot Info:dd,再试一次！！";
     }
 }
